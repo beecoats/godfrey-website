@@ -337,7 +337,6 @@
             });
         });
           
-          
         $('.read-cta').click(function() {
             $('.read-cta').css({
             'display': 'none',
@@ -360,7 +359,7 @@
             $('.disclaimer-text').css({
             'display': 'none',
             });
-        });
+        }); 
           
           
         $('.read-david-bio').click(function() {
@@ -444,9 +443,7 @@
     <div class="col-md-7 main-content">
         <p>Savage & Godfrey is a general law practice located in Apex, North Carolina. Our goal is to provide prompt, professional legal services in a courteous manner at reasonable fees. The firm has represented hundreds of clients, from families and small businesses to banks and large corporations, in various types of legal matters.<br><br>
 
-We take pride in referrals over the years from satisfied clients—some back to the 1950s—and our highest rating by Martindale & Hubbell Legal Directory.<br><br>
-
-References are available upon request.</p>
+We take pride in referrals over the years from satisfied clients—some back to the 1960s—and our highest rating by Martindale & Hubbell Legal Directory.</p>
         <a class="bio-cta" href='#bio-section'>Meet The Team <i class="fas fa-plus-circle"></i></a>
     </div>
   </div>
@@ -480,43 +477,44 @@ References are available upon request.</p>
   <div class="row">
     <div class="col-md-6 service-card">
         <div id="card-one"><i class="card-icon fas fa-home"></i>
-      <h3>Residential and Commercial Real Estate</h3>
-        <p>Contracts, leases, title examinations, loan and purchase closings, refinances, 1031 exchanges, equity lines, timber deeds, easements, road maintenance agreements, restrictive covenants, homeowner associations, condemnation/eminent domain.</p>
+      <h3>Business Acquisitions</h3>
+        <p>Business and asset purchases and sales.</p>      
         </div>
         <div id="card-two"><i class="card-icon fas fa-file-alt"></i>
-      <h3>Wills and Estates</h3>
-        <p>Wills, trusts, advance medical directives, living wills, powers of attorney.</p>
-        </div>  
-        <div id="card-three"><i class="card-icon fas fa-crutch"></i>
-      <h3>Personal Injury</h3>
-        <p>Motor vehicle accidents, insurance claims.</p>
-        </div>  
-        <div id="card-four"><i class="card-icon fas fa-building"></i>
-      <h3>Corporations and Limited Liability Companies</h3>
-        <p>Articles of incorporation/organization, bylaws/operating agreements, minutes, stock transfers, buy-sell agreements.</p>
-        </div>  
-        <div id="card-five"><i class="card-icon fas fa-handshake"></i>
-      <h3>Business Acquisitions</h3>
-        <p>Business and asset purchases.</p>
-        </div>  
-        <div id="card-six"><i class="card-icon fas fa-gavel"></i>
       <h3>Civil Claims and Trials, Arbitration, and Mediation</h3>
         <p>Contracts, debt collection, plaintiff and defense representation.</p>
         </div>  
-        <div id="card-seven"><i class="card-icon fas fa-traffic-light"></i>
+        <div id="card-three"><i class="card-icon fas fa-crutch"></i>
+      <h3>Corporations and Limited Liability Companies</h3>
+        <p>Articles of incorporation/organization, bylaws/operating agreements, minutes, stock transfers, buy-sell agreements.</p>  
+        </div>  
+        <div id="card-four"><i class="card-icon fas fa-building"></i>
+            <h3>Personal Injury and Insurance Claims</h3>
+        <p>Motor vehicle accidents, insurance claims.</p>
+        </div>  
+        <div id="card-five"><i class="card-icon fas fa-handshake"></i>
+            <h3>Residential and Commercial Real Estate</h3>
+        <p>Contracts, leases, title examinations, loan and purchase closings, refinances, 1031 exchanges, equity lines, timber deeds, easements, road maintenance agreements, restrictive covenants, homeowner associations, condemnation/eminent domain.</p>
+        </div>  
+        <div id="card-six"><i class="card-icon fas fa-gavel"></i>
       <h3>Traffic Citations and Criminal Offenses</h3>
-        <p>Speeding and traffic tickets, DWI, misdemeanors.</p>
+        <p>Traffic tickets and misdemeanors.</p>
+        </div>  
+        <div id="card-seven"><i class="card-icon fas fa-traffic-light"></i>
+        <h3>Wills and Estates</h3>
+        <p>Wills, trusts, advance medical directives, living wills, powers of attorney, probate, and estate administration.</p>
+
         </div>  
     </div>
     <div class="col-md-6 services-list">
       <ul>
-        <li id="li-one">Residential and Commercial Real Estate</li>
-        <li id="li-two">Wills and Estates</li>
-        <li id="li-three">Personal Injury</li>
-        <li id="li-four">Corporations and Limited Liability Companies</li>
-        <li id="li-five">Business Acquisitions</li>
-        <li id="li-six">Civil Claims and Trials, Arbitration, and Mediation</li>
-        <li id="li-seven">Traffic Citations and Criminal Offenses</li>
+        <li id="li-one">Business Acquisitions</li>
+        <li id="li-two">Civil Claims and Trials, Arbitration, and Mediation</li>
+        <li id="li-three">Corporations and Limited Liability Companies</li>
+        <li id="li-four">Personal Injury and Insurance Claims</li>
+        <li id="li-five">Residential and Commercial Real Estate</li>
+        <li id="li-six">Traffic Citations and Criminal Offenses</li>
+        <li id="li-seven">Wills and Estates</li>
       </ul>
     </div>
   </div>
@@ -529,13 +527,15 @@ References are available upon request.</p>
     <div class="col-md-6">
         <div class="david-bio"></div><br>
         <span class="bio-title">David R. Godfrey</span><br>
+        <span class ="tagline">Practicing Since 1978</span><br>
         <span class ="bio-email">dgodfrey@apexlawyer.com</span><br>
         <a href='#david-bio'><i class="bio-icon fas fa-plus-circle read-david-bio"></i></a>
       </div>
     <div class="col-md-6">
         <div class="sandra-bio"></div><br>
         <span class="bio-title">Sandra Sheckells</span><br>
-        <span class ="bio-email">ssheckells@apexlawyer.com</span><br>
+        <span class ="tagline">Paralegal and Office Manager for Over 30 Years</span><br>
+        <span class ="bio-email">sandra@apexlawyer.com</span><br>
         <a href='#sandra-bio'><i class="bio-icon fas fa-plus-circle read-sandra-bio"></i></a>
       </div>
   </div>
@@ -565,7 +565,7 @@ References are available upon request.</p>
     <div class="col-md-6 directions-text">
         <span class="directions-title">Savage & Godfrey</span>
         <p>315 S Salem Street, Suite 100<br>Apex, NC 27502<br><br>
-        <strong>Phone:</strong> (919) 362-9469<br>
+        <strong>Phone:</strong> (919) 362-4212<br>
         <b>Fax:</b> (919) 362-6587</p>
         <div class="banner-bar directions-bar"></div>
         <p><b>Directions: </b>We are conveniently located to most areas of the Triangle, with ample free door-front parking, and ground-floor access to accommodate clients with physical disabilities. We are located in the Apex Professional Center, Suite 100, 315 S. Salem Street, in Apex, North Carolina. Our building is at the intersection of Salem Street and N.C. Highway 55. Please call us or consult an online map if more specific directions are required.</p>
@@ -583,7 +583,7 @@ References are available upon request.</p>
       <div class="col">
       </div>
       <div class="col-sm-3 col-md-2">
-        <span class="read-cta">Read More +</span>
+        <!-- <span class="read-cta">Read More +</span> -->
                   <span class="hide-cta">Hide Details -</span>
     </div>
       </div>
@@ -592,9 +592,13 @@ References are available upon request.</p>
 
 This firm is licensed to practice in North Carolina only.<br><br>
 
-Please speak with us prior to forwarding confidential information, requests, or questions, to enable us to verify and confirm the terms and limits of representation, and set up, or retrieve your existing file. Electronic mail is not secure and is subject to tampering, interception, and errors in transmission. You should avoid sending detailed sensitive, confidential information or inquiries via this method, unless the firm so requests. New client file matters and office appointments are normally set up by telephone.<br><br>
+Please speak with us prior to forwarding confidential information, requests, or questions, to enable us to verify and confirm the terms and limits of representation, and set up file, or retrieve your existing file. Electronic mail is not secure and is subject to tampering, interception, and errors in transmission. You should avoid sending detailed sensitive, confidential information or inquiries via this method, unless the firm so requests. New client file matters and office appointments are normally set up by telephone.<br><br>
 
-There may be delays in receiving, checking, and reviewing inquiries via electronic mail, particularly during times when the recipient is unavailable. Do not send time-critical information, documents, or inquiries without independent prior request or authorization from the firm, and receipt of firm's affirmative express intent to respond to same.</p>
+There may be delays in receiving, checking, and reviewing inquiries via electronic mail, particularly during times when the recipient is unavailable. Do not send time-critical information, documents, or inquiries without independent prior request or authorization from the firm, and receipt of firm's affirmative express intent to respond to same.<br><br>
+        
+        DO NOT WIRE US FUNDS WITHOUT SPEAKING TO US FIRST AND OBTAINING AND
+VERIFYING OUR WRITTEN WIRING INSTRUCTIONS. WIRE FRAUD IS RAMPANT.
+        </p>
     </div>
 </div>
 </div>
