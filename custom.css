@@ -13,15 +13,17 @@
     margin: 5px 0px;
 }
 #banner {
-    xxbackground-color: #4D0D0F;
+    xxbackground-color: #072702;
     color: white;
     background: 
      linear-gradient(
-      rgba(77, 13, 15, 0.85), 
-      rgba(77, 13, 15, 0.85)
+      rgba(7, 39, 2, 0.85), 
+      rgba(7, 39, 2, 0.85)
     ),
     /* bottom, image */
     url(images/apex-1.jpg);
+    background-size: cover;
+    background-position: bottom;
 }
 .banner-image {
     background: url(images/godfrey.png);
@@ -36,6 +38,7 @@
     background: url(images/godfrey.png);
     width:auto;
     height: 350px;
+    padding: 100px;
 }
 .sandra-bio {
     background: url(images/sheckells.png);
@@ -55,9 +58,9 @@
     min-height: 300px
 }
 .main-content {
-    padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
 }
 #awards-section {
     background-color: #f1f1f1;
@@ -69,7 +72,7 @@
     padding: 40px 0px;
 }
 #directions {
-    background-color: #4D0D0F;
+    background-color: #072702;
     color: white;
     font-weight: 200;
 }
@@ -102,7 +105,7 @@ h2{
 h3{
     font-family: 'Lora', serif;
     font-size: 24px;
-    color: #781518;
+    color: #1d5a14;
 }
 h4{
 }
@@ -110,14 +113,18 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
 }
-ul{
-    border-left: 1px solid #781518;
+ul {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+.services-list ul{
+    border-left: 1px solid #072702;
     margin-left: 40px;
     font-size: 18px;
     font-weight: 300;
     padding-left: 0px;
 }
-li {
+.services-list li {
     list-style: none;    
     padding: 10px 0px;
     padding-left: 15px;
@@ -131,8 +138,18 @@ li {
     background-color: white;
     text-align: center;
     padding: 40px 0px;
+    height: 200px;
     box-shadow: 0px 0px 8px #D5D5D5;
     margin: 15px;
+}
+.award-one {
+    background: url(images/godfrey.png);
+}
+.award-two {
+    background: url(images/godfrey.png);
+}
+.award-three {
+    background: url(images/godfrey.png);
 }
 .banner-bar {
     width: 80px;
@@ -154,11 +171,11 @@ li {
     font-family: 'Lora', serif;
     font-size: 24px; 
     font-weight: 300;
-    color: #781518;
+    color: #072702;
     margin-top: 30px;
 }
 .bio-cta {
-    color: #781518;
+    color: #072702;
     font-weight:700;
     text-decoration: none;
     cursor: pointer;
@@ -174,7 +191,7 @@ li {
 
 }
 .bio-cta:hover {
-    color: #781518;
+    color: #072702;
     font-weight:700;
 }
 .bio-icon {
@@ -200,9 +217,11 @@ li {
     font-size: 36px;
     margin-bottom: 10px;
     padding-top: 30px;
+    color: #AE8F60;
 }
 .disclaimer-text {
     padding-top: 15px;
+    font-size: 12px;
 }
 .hide-cta {
     display: none;
@@ -223,11 +242,11 @@ li {
 }
 
 #li-one {
-    border-left: 5px solid #781518;
+    border-left: 5px solid #1d5a14;
     cursor: pointer;
 }
 #li-border-left {
-    border-left: 5px solid #781518;
+    border-left: 5px solid #1d5a14;
 }
 
 #li-two, #li-three, #li-four, #li-five, #li-six, #li-seven{
@@ -257,8 +276,15 @@ li {
     .bio-icon {
     margin-bottom: 30px; 
     }
+    .card-icon {
+    color: black;
+    }
+    .david-bio {
+    height: 200px;
+    background-size: cover;
+    }
+    .sandra-bio {
+    height: 200px;
+    background-size: cover;
+    }
 }
-
-
-
-
